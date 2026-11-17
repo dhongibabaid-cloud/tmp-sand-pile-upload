@@ -1,3 +1,3 @@
 # Published Shorts log (one line per video; status: in-progress | uploaded-not-logged | published)
 2026-11-16 | topic: every grain of sand on Earth in one pile | style: Deep Dive 3D | title: What If You Piled Up Every Grain of Sand on Earth? | youtube: https://www.youtube.com/watch?v=VOGq4yEP_hE | instagram: https://www.instagram.com/reel/Df1KTM2lPrF/ | github file: removed after upload | status: published
-2026-11-17 | topic: what if the Moon vanished | style: Sam Explaining | title: What If The Moon Vanished Tonight? #shorts | project: ~/faceless-shorts/moon-vanish | status: in-progress (script, voice, shots done; QA next)
+2026-11-17 | topic: what if the Moon vanished | style: Sam Explaining | title: What If The Moon Vanished Tonight? #shorts | youtube: https://www.youtube.com/watch?v=mUUvI-VvSxk | github file: What If The Moon Vanished Tonight?.mp4 (removing after upload) | instagram: pending | status: uploaded-not-logged
