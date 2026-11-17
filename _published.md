@@ -1,0 +1,2 @@
+# Published Shorts log (one line per video; status: in-progress | uploaded-not-logged | published)
+2026-11-16 | topic: every grain of sand on Earth in one pile | style: Deep Dive 3D | title: What If You Piled Up Every Grain of Sand on Earth? | youtube: https://www.youtube.com/watch?v=VOGq4yEP_hE | instagram: https://www.instagram.com/reel/Df1KTM2lPrF/ | github file: removed after upload | status: published
