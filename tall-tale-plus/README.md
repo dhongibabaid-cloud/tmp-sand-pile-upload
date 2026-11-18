@@ -11,3 +11,6 @@ Built on the faceless-shorts `tall-tale` style (copy it with `new_video.sh tall-
 4. Natural scene colors always (water blue, day sky blue, etc.). Render: `SOFTWARE_GL=1 QS='&res=0.6&aa=0&shadow=1024' FPS=24` (~2 s per frame, so a 40 s Short is ~1 h; run it in the background).
 
 `test-shots.js` is the test scene used to make `test-frames.jpg`.
+
+## Worked example: The Great Emu War (2026-11-18)
+`emu-war-source/` holds its shots.js, emu.js (emu, wheat field, Lewis gun props) and script.json. Lessons: the frame is a narrow portrait (about 22 degrees horizontal), so keep all people inside a ~3 m wide column in front of a camera 9 to 11 m back; show/hide Toons through `toon.group.visible`, not `toon.visible`; keep wheat stalks out of the camera's near zone; a 50 s Short renders in about 35 minutes at res 0.6.

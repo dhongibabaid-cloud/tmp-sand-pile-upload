@@ -1,0 +1,55 @@
+{
+ "title": "The Great Emu War",
+ "voice": "am_michael",
+ "speed": 1.05,
+ "lead": 0.3,
+ "outro": 1.2,
+ "gap": 0.2,
+ "music": "bounce",
+ "sources": [
+  "Wikipedia, 'Emu War' (2 Nov to 10 Dec 1932; about 20,000 emus; WWI veterans on marginal wheat land in Western Australia during the Depression asked for machine guns; Major G.P.W. Meredith with two Lewis guns and 10,000 rounds; a gun jammed, a truck-mounted gun could not catch the birds; the emus split into small groups; the army withdrew 8 Nov, returned, and Meredith was recalled 10 Dec; Meredith's report claimed 986 emus from 9,860 rounds, about ten rounds per bird, a figure historians call inflated/disputed; officially a wildlife management operation, the name 'Emu War' came from the media; in 1934 57,034 bounties were claimed in six months)",
+  "Scientific American, 'The Great Emu War' (about 20,000 emus wrecking wheat farms in Western Australia; first target a group of about 50 near Campion; a machine gun jammed in the second engagement; emus scattered in all directions and were fast; about ten bullets per emu; in 1934 locals killed 57,034 emus in six months)"
+ ],
+ "lines": [
+  {
+   "text": "In 1932, the Australian army went to war with birds.",
+   "caps": "IN 1932, | THE ARMY WENT | TO WAR WITH | BIRDS"
+  },
+  {
+   "text": "Twenty thousand emus were trampling the wheat farms of Western Australia.",
+   "caps": "20,000 | EMUS | TRAMPLING | THE WHEAT"
+  },
+  {
+   "text": "The farmers were struggling, and many were World War One veterans, so they asked for machine guns.",
+   "caps": "VETERANS | ASKED FOR | MACHINE GUNS"
+  },
+  {
+   "text": "The army sent a major, two Lewis guns, and ten thousand rounds.",
+   "caps": "A MAJOR | TWO GUNS | 10,000 ROUNDS"
+  },
+  {
+   "text": "But emus are fast, and they split into small groups, so the soldiers kept missing.",
+   "caps": "BUT EMUS | ARE FAST | AND SPLIT UP | SOLDIERS MISSED"
+  },
+  {
+   "text": "One gun jammed, and a truck with a gun couldn't even catch them.",
+   "caps": "ONE GUN | JAMMED | THE TRUCK | COULDN'T CATCH THEM"
+  },
+  {
+   "text": "The army pulled out, came back, and pulled out again.",
+   "caps": "ARMY PULLED OUT | CAME BACK | PULLED OUT AGAIN"
+  },
+  {
+   "text": "The major claimed nearly a thousand emus, about ten bullets each.",
+   "caps": "MAJOR CLAIMED | NEARLY 1,000 | 10 BULLETS EACH"
+  },
+  {
+   "text": "What finally worked? Bounties. In 1934, farmers claimed over fifty-seven thousand emus.",
+   "caps": "WHAT WORKED? | BOUNTIES | 57,000 | CLAIMED IN 1934"
+  },
+  {
+   "text": "Officially, it was never even a war, but we all remember who won: the emus.",
+   "caps": "NEVER A WAR | BUT WE KNOW | WHO WON | THE EMUS"
+  }
+ ]
+}
