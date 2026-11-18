@@ -16,7 +16,8 @@ export function rug(w = 3, d = 2, a = '#B5372E', b = '#F2E6CF', c = '#2E4E8A') {
     g.fillStyle = c; g.beginPath(); g.arc(W / 2, H / 2, 26, 0, 7); g.fill();
     for (let i = 0; i < 30; i++) { g.fillStyle = b; g.fillRect(22 + i * (W - 44) / 30, 4, 8, 14); g.fillRect(22 + i * (W - 44) / 30, H - 18, 8, 14); }
   });
-  const m = new THREE.Mesh(new THREE.PlaneGeometry(w, d), mat({ map: tex, roughness: 1 })); m.rotation.x = -Math.PI / 2; m.position.y = 0.012; m.receiveShadow = true; return m;
+  const rm = mat({ map: tex, roughness: 1 }); rm.polygonOffset = true; rm.polygonOffsetFactor = -4; rm.polygonOffsetUnits = -4;
+  const m = new THREE.Mesh(new THREE.PlaneGeometry(w, d), rm); m.rotation.x = -Math.PI / 2; m.position.y = 0.04; m.receiveShadow = true; m.renderOrder = 1; m.frustumCulled = false; return m;
 }
 export function plant(s = 1, pot = '#C9603F', leaf = '#3E9A4A') {
   const g = new THREE.Group(); cy(0.2 * s, 0.14 * s, 0.32 * s, mat({ color: pot }), 0, 0.16 * s, 0, g);
@@ -59,8 +60,8 @@ export function wallClock(r = 0.28) { const g = new THREE.Group(); cy(r, r, 0.06
 export function dress(IN, { dense = 1, seed = 1, rugCols = ['#B5372E', '#F2E6CF', '#2E4E8A'], skip = [] } = {}) {
   const { scene, w, depth, h } = IN, add = (o, x, y, z, ry = 0) => { o.position.set(x, y, z); o.rotation.y = ry; scene.add(o); return o; };
   const out = {};
-  if (!skip.includes('rug')) out.rug = add(rug(3.4, 2.4, ...rugCols), -0.6, 0, -depth / 2 + 0.2);
-  if (!skip.includes('rug2')) add(rug(1.6, 1.1, rugCols[2], rugCols[1], rugCols[0]), -2.6, 0, -1.2, 0.3);
+  if (!skip.includes('rug')) out.rug = add(rug(3.4, 2.4, ...rugCols), -0.6, 0.04, -depth / 2 + 0.2);
+  if (!skip.includes('rug2')) add(rug(1.6, 1.1, rugCols[2], rugCols[1], rugCols[0]), -2.6, 0.065, -1.2, 0.3);
   add(shelf(1.8, 3, seed), -w / 2 + 0.22, 0.4, -depth / 2 - 1.2, Math.PI / 2);
   add(shelf(1.4, 2, seed + 4), -w / 2 + 0.22, 1.6, -depth / 2 + 1.4, Math.PI / 2);
   add(plant(1.4), -w / 2 + 0.55, 0, -depth + 0.5); add(plant(1.0, '#3C6FB6', '#2E8A4A'), w / 2 - 1.8, 0, -depth + 0.5); add(plant(0.9, '#E2B33C'), -w / 2 + 0.5, 0, -0.3);

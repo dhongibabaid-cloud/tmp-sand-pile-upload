@@ -14,3 +14,12 @@ Built on the faceless-shorts `tall-tale` style (copy it with `new_video.sh tall-
 
 ## Worked example: The Great Emu War (2026-11-18)
 `emu-war-source/` holds its shots.js, emu.js (emu, wheat field, Lewis gun props) and script.json. Lessons: the frame is a narrow portrait (about 22 degrees horizontal), so keep all people inside a ~3 m wide column in front of a camera 9 to 11 m back; show/hide Toons through `toon.group.visible`, not `toon.visible`; keep wheat stalks out of the camera's near zone; a 50 s Short renders in about 35 minutes at res 0.6.
+
+## Upgrades (Pig War video)
+- `decor.js`: rugs now sit at y 0.04 / 0.065 with polygonOffset, so they no longer z-fight with the floor (the "blinking carpet"). `dress()` passes the y value through.
+- `cast.js`: `assertDistinct(looks)` throws if two characters share body + hat + extras + pattern; `cast(n, seed)` generates distinct looks. Give EVERY character its own look.
+- `mix.py`: meme cues `boom scratch trombone airhorn stinger crickets bruh badumtss glitch dundun` (add to `cue(t,'boom')`). Vary them; never one effect all video.
+- `flicker.py draft.mp4`: every-frame one-frame-blink detector. Render a low-res draft (`--draft`, `QS=&res=0.3`) and run it BEFORE the final render.
+- Portrait frame is narrow (about 22 degrees horizontal): keep people in a 3 m column, camera 10 to 12 m back.
+- Recurring character: Mo, the black-hoodie 3D boy cut-out, deadpan with a popcorn bucket, in every video.
+- `pigwar.js` + `pig-war-source/`: worked example (props, shots, script).
