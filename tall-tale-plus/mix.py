@@ -283,7 +283,9 @@ if amb == 'market':
     if voice is not None: a *= (1 - 0.3 * np.clip(lev * 3, 0, 1))[:, None] if 'lev' in globals() else 1
     mix[:len(a)] += a
 # effects
+DISLIKED = {'dundun'}   # user dislikes the 'dun dun dun' sting: never use it
 for c in cj['cues']:
+    if c['type'] in DISLIKED: continue
     fn = FX.get(c['type'])
     if not fn: print('unknown cue type, skipped:', c['type']); continue
     x = fn(**({'d': c['dur']} if c.get('dur') else {}))
