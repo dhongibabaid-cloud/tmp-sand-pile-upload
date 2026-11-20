@@ -1,0 +1,33 @@
+{
+ "title": "The Roman Emperor Who Taxed Pee #shorts",
+ "voice": "am_fenrir",
+ "speed": 1.08,
+ "lead": 0.3,
+ "outro": 0.6,
+ "gap": 0.28,
+ "music": "roman",
+ "ambience": "market",
+ "lines": [
+  {"text": "Did ancient Rome really tax pee? It did."},
+  {"text": "Romans collected urine from public toilets and sold it to launderers and leather makers."},
+  {"text": "Its ammonia whitened togas and tanned hides."},
+  {"text": "Around seventy A.D., Emperor Vespasian taxed it to fill the treasury."},
+  {"text": "His son Titus said that was disgusting. So Vespasian held up a gold coin and asked, does it smell?"},
+  {"text": "Titus said no. Vespasian replied, yet it comes from urine."},
+  {"text": "That's where the saying, money does not stink, comes from."},
+  {"text": "So, did ancient Rome tax pee? It did, and money never smelled better."}
+ ],
+ "sources": [
+  "https://lexundria.com/suet_ves/23.3/r",
+  "https://en.wikipedia.org/wiki/Pecunia_non_olet",
+  "https://www.ancient-origins.net/history-ancient-traditions/money-does-not-stink-urine-tax-ancient-rome-003408",
+  "https://britannica.com/question/Who-built-the-Colosseum"
+ ],
+ "facts": {
+  "tax": "vectigal urinae: first imposed by Nero, re-enacted by Vespasian around AD 70 to fill the treasury (Wikipedia, Ancient Origins)",
+  "uses": "urine from public urinals sold for fulling/laundering woollen togas, tanning leather (ammonia)",
+  "anecdote": "Suetonius, Vespasian 23.3: Titus found fault with the tax on public conveniences; Vespasian held a coin from the first payment to his nose, asked if it smelled; Titus said no; 'Yet it comes from urine'. Pecunia non olet.",
+  "colosseum": "begun by Vespasian c. AD 70-72, dedicated by Titus AD 80 (Britannica). Funded by Jerusalem plunder (not claimed as pee-funded).",
+  "doubts": "the anecdote rests on Suetonius; whether buyers paid the tax is marked citation-needed on Wikipedia, so the script only says Vespasian taxed it"
+ }
+}

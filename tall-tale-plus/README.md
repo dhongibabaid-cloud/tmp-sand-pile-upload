@@ -23,3 +23,9 @@ Built on the faceless-shorts `tall-tale` style (copy it with `new_video.sh tall-
 - Portrait frame is narrow (about 22 degrees horizontal): keep people in a 3 m column, camera 10 to 12 m back.
 - Recurring character: Mo, the black-hoodie 3D boy cut-out, deadpan with a popcorn bucket, in every video.
 - `pigwar.js` + `pig-war-source/`: worked example (props, shots, script).
+
+## Upgrade notes (Nov 20): living-world quality target
+- mix.py: world sounds (step, knock, coin, crunch, gasp, cheer, creak), `"music": "roman"`, `"ambience": "market"` in script.json.
+- rome.js: Colosseum under construction, shops, stalls, amphorae, tub, hide rack, chest, desk, latrine, dog, paved street. Crowd = 16 generated looks with unique body colours, walkers/shoppers/vendors, only simulated near the camera.
+- Spinning metallic props can glint for one frame: keep coin metalness low (flicker.py caught it).
+- Hint: meadow() ground bumps poke through a street plane: hide the CircleGeometry and sink the 200x200 ground.

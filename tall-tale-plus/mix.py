@@ -205,6 +205,53 @@ def music_tension():
     x = lp(x, 2200); fade = np.ones(N); fo = int(1.5 * SR); fade[-fo:] = np.linspace(1, 0, fo); fi = int(0.8 * SR); fade[:fi] *= np.linspace(0, 1, fi)
     return x / (np.abs(x).max() + 1e-9) * fade
 
+# ---------- world sounds: steps, knock, coin, crunch, gasp, cheer, creak ----------
+def step(**_): d = 0.14; n = int(d * SR); x = lp(noise(d), 900) * env(n, 0.001, 24) + sweep(120, 60, d) * env(n, 0.001, 26) * 0.8; return x
+def knock(**_):
+    d = 0.5; x = np.zeros(int(d * SR))
+    for k0 in (0.0, 0.22):
+        n = int(0.09 * SR); tk = bp(noise(0.09), 500, 1400) * env(n, 0.001, 30) + sweep(260, 150, 0.09) * env(n, 0.001, 30) * 0.6; i = int(k0 * SR); x[i:i + n] += tk
+    return x
+def coin(**_): d = 0.45; t = tt(d); return (np.sin(2 * np.pi * 2650 * t) + 0.6 * np.sin(2 * np.pi * 3980 * t) + 0.3 * np.sin(2 * np.pi * 1760 * t)) * env(len(t), 0.001, 8) * 0.5
+def crunch(**_):
+    x = np.zeros(int(0.5 * SR))
+    for k0 in (0.0, 0.1, 0.2):
+        n = int(0.07 * SR); i = int(k0 * SR); x[i:i + n] += bp(noise(0.07), 900, 3500) * env(n, 0.001, 18)
+    return x
+def gasp(d=0.6, **_): n = int(d * SR); e = np.minimum(1, np.arange(n) / (0.35 * SR)) * np.minimum(1, (n - np.arange(n)) / (0.12 * SR)); return bp(noise(d), 500, 2600) * e
+def cheer(d=1.6, **_):
+    n = int(d * SR); x = bp(noise(d), 350, 2800); m = 0.6 + 0.4 * np.sin(2 * np.pi * 7 * np.arange(n) / SR + 1) * np.sin(2 * np.pi * 2.3 * np.arange(n) / SR); e = np.minimum(1, np.arange(n) / (0.2 * SR)) * np.minimum(1, (n - np.arange(n)) / (0.5 * SR)); return x * m * e
+def creak(d=0.9, **_):
+    n = int(d * SR); t = np.arange(n) / SR; f = 170 + 90 * np.sin(2 * np.pi * 1.7 * t) * t / d; ph = 2 * np.pi * np.cumsum(f) / SR; x = signal.sawtooth(ph) * 0.5; return lp(x, 1500) * np.minimum(1, t / 0.1) * np.minimum(1, (d - t) / 0.2)
+FX.update(step=step, knock=knock, coin=coin, crunch=crunch, gasp=gasp, cheer=cheer, creak=creak)
+LEVEL.update(step=-17, knock=-8, coin=-12, crunch=-12, gasp=-16, cheer=-18, creak=-16)
+
+def ambience_market():
+    d = DUR + 0.2; n = int(d * SR); x = bp(noise(d), 220, 1700, 2)
+    slow = lp(noise(d), 1.5, 1); slow = (slow - slow.min()) / (slow.max() - slow.min() + 1e-9)
+    chat = bp(noise(d), 700, 2400, 2) * (np.abs(lp(noise(d), 9, 1)) * 6) ** 1.5
+    y = x * (0.5 + 0.5 * slow) + 0.5 * chat; return y / (np.abs(y).max() + 1e-9)
+
+def music_roman():
+    bpm = 104; beat = 60 / bpm; N0 = N; x = np.zeros(N0)
+    scale = {'D': 146.8, 'E': 164.8, 'F': 174.6, 'G': 196.0, 'A': 220.0, 'B': 246.9, 'C': 261.6}
+    mel = ['D', 'F', 'A', 'G', 'F', 'E', 'D', 'E', 'F', 'G', 'A', 'B', 'A', 'G', 'F', 'E']
+    nb = int(DUR / (beat / 2)) + 1
+    for k in range(nb):
+        i = int(k * beat / 2 * SR)
+        if i >= N0 - 4000: break
+        f = scale[mel[k % len(mel)]] * (2 if k % 8 in (3, 4, 5) else 1) * (2 if k % 16 >= 8 else 1); d = 0.55; pt = tt(d)
+        pl = sum(a / (h ** 1.3) * np.sin(2 * np.pi * f * h * pt) * np.exp(-pt * (6 + 3 * h)) for h, a in ((1, 1.0), (2, 0.7), (3, 0.5), (4, 0.35))) * 0.22
+        x[i:i + len(pl)] += pl[:max(0, min(len(pl), N0 - i))]
+    for b in range(int(DUR / beat) + 1):                                         # frame-drum thump on 1 and 3, soft tick on the off beat
+        i = int(b * beat * SR)
+        if i >= N0 - 6000: break
+        if b % 4 in (0, 2): th = sweep(110, 62, 0.22) * env(int(0.22 * SR), 0.002, 12) * 0.55; x[i:i + len(th)] += th[:max(0, min(len(th), N0 - i))]
+        elif b % 2 == 1: tk = lp(bp(noise(0.06), 600, 2200), 2400) * env(int(0.06 * SR), 0.001, 22) * 0.18; x[i:i + len(tk)] += tk[:max(0, min(len(tk), N0 - i))]
+    dr = (np.sin(2 * np.pi * 73.4 * tt(DUR + 0.2)) + 0.4 * np.sin(2 * np.pi * 110.0 * tt(DUR + 0.2)))[:N0] * 0.05; x[:len(dr)] += dr
+    x = lp(x, 3600); fade = np.ones(N0); fo = int(1.2 * SR); fade[-fo:] = np.linspace(1, 0, fo); fi = int(0.4 * SR); fade[:fi] *= np.linspace(0, 1, fi)
+    return x / (np.abs(x).max() + 1e-9) * fade
+
 def load_audio(f):
     out = subprocess.run(['ffmpeg', '-v', 'error', '-i', str(f), '-f', 'f32le', '-ac', '2', '-ar', str(SR), '-'], capture_output=True, check=True).stdout
     a = np.frombuffer(out, dtype=np.float32).reshape(-1, 2).astype(np.float64); return a
@@ -221,7 +268,7 @@ if vf.exists():
 # music
 mus = script.get('music', 'bed')
 if mus and mus != 'none':
-    m = music_bed() if mus == 'bed' else music_tension() if mus == 'tension' else music_bounce() if mus == 'bounce' else None
+    m = music_roman() if mus == 'roman' else music_bed() if mus == 'bed' else music_tension() if mus == 'tension' else music_bounce() if mus == 'bounce' else None
     if m is None:
         a = load_audio(P / mus)[:N]; m = np.zeros(N); m[:len(a)] = a.mean(1); m /= np.abs(m).max() + 1e-9
     m = np.stack([m, m], 1) * db(-24 if voice is not None else -20)
@@ -229,6 +276,12 @@ if mus and mus != 'none':
         lev = np.abs(voice.mean(1)); lev = signal.lfilter([1 - 0.9995], [1, -0.9995], lev); lev /= lev.max() + 1e-9
         m *= (1 - 0.55 * np.clip(lev * 3, 0, 1))[:, None]
     mix += m
+# ambience (script.json: "ambience": "market")
+amb = script.get('ambience')
+if amb == 'market':
+    a = ambience_market()[:N]; a = np.stack([a, a], 1) * db(-33 if voice is not None else -28)
+    if voice is not None: a *= (1 - 0.3 * np.clip(lev * 3, 0, 1))[:, None] if 'lev' in globals() else 1
+    mix[:len(a)] += a
 # effects
 for c in cj['cues']:
     fn = FX.get(c['type'])
