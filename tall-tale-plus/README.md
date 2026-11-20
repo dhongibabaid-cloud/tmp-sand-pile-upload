@@ -29,3 +29,8 @@ Built on the faceless-shorts `tall-tale` style (copy it with `new_video.sh tall-
 - rome.js: Colosseum under construction, shops, stalls, amphorae, tub, hide rack, chest, desk, latrine, dog, paved street. Crowd = 16 generated looks with unique body colours, walkers/shoppers/vendors, only simulated near the camera.
 - Spinning metallic props can glint for one frame: keep coin metalness low (flicker.py caught it).
 - Hint: meadow() ground bumps poke through a street plane: hide the CircleGeometry and sink the 200x200 ground.
+
+## Sound sample library (sfx/)
+25 clips from the user's Drive folder. Use the file name (no .mp3) as a cue type in cues, e.g. `{"type":"faaah","t":2.0}`:
+aaaaaa, ah_shit, anime_ahh, auughhh, bone_crack, bruh_clip, chicken_tree, core, error, faaah, get_out, hehehehehehehe, klonk, let_him_cook_now, metal_gear, michael_jackson, ohhhhhh, omg_bruh, shocked, snoring, spider_web_shooter, spiderman_song, switch, thats_why_hes_the_goat, wasted.
+The 200+ sound-effects .webm (27 MB) is over the Drive connector's 10 MB download limit and is NOT installed.

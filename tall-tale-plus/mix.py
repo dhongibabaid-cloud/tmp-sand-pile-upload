@@ -257,6 +257,19 @@ def load_audio(f):
     a = np.frombuffer(out, dtype=np.float32).reshape(-1, 2).astype(np.float64); return a
 
 
+
+# ---- sample library: sfx/<name>.mp3 (from the user's Drive); cue type = file name without extension ----
+SAMPLE_DIRS = [Path(__file__).resolve().parent / 'sfx', Path.home() / 'faceless-shorts' / 'sfx', P / 'sfx']
+SAMPLE_LEVEL = {'klonk': -10, 'core': -12, 'error': -12, 'bone_crack': -9, 'bruh_clip': -9, 'anime_ahh': -11, 'shocked': -11, 'faaah': -10, 'get_out': -11, 'michael_jackson': -11, 'spider_web_shooter': -11, 'hehehehehehehe': -12, 'metal_gear': -10, 'ah_shit': -10}
+def sample(name, d=None):
+    for D in SAMPLE_DIRS:
+        f = D / (name + '.mp3')
+        if f.exists():
+            a = load_audio(f).mean(1)
+            if d: a = a[:int(d * SR)]
+            return a
+    return None
+
 mix = np.zeros((N, 2))
 # voice
 vf = P / 'data/narration.wav'
@@ -286,6 +299,12 @@ if amb == 'market':
 DISLIKED = {'dundun', 'airhorn', 'glitch'}   # user dislikes the 'dun dun dun' sting: never use it
 for c in cj['cues']:
     if c['type'] in DISLIKED: continue
+    smp = sample(c['type'], c.get('dur')) if c['type'] not in FX else None
+    if smp is not None:
+        x = smp * db(SAMPLE_LEVEL.get(c['type'], -12)) * c.get('gain', 1.0) / (np.abs(smp).max() + 1e-9) * 0.9
+        i = int(c['t'] * SR); n = min(len(x), N - i)
+        if n > 0 and i >= 0: pan = c.get('pan', 0.0); mix[i:i + n, 0] += x[:n] * (1 - max(0, pan)); mix[i:i + n, 1] += x[:n] * (1 + min(0, pan))
+        continue
     fn = FX.get(c['type'])
     if not fn: print('unknown cue type, skipped:', c['type']); continue
     x = fn(**({'d': c['dur']} if c.get('dur') else {}))
