@@ -1,0 +1,30 @@
+{
+ "title": "Scientists Built a Machine to Twist Oreos #shorts",
+ "voice": "am_fenrir",
+ "speed": 1.08,
+ "lead": 0.3,
+ "outro": 0.6,
+ "gap": 0.28,
+ "music": "bounce",
+ "lines": [
+  {"text": "Why does Oreo cream always stick to just one side? Scientists built a machine to find out."},
+  {"text": "In twenty twenty-two, MIT engineers made the Oreometer, a gadget that twists Oreos using pennies and rubber bands."},
+  {"text": "They tested regular, double, and mega stuffing, plus different flavors."},
+  {"text": "The result? The cream almost always stuck to one side."},
+  {"text": "Twisting an Oreo takes about as much force as turning a doorknob."},
+  {"text": "Researchers suspect the factory, where the cream lands on the first wafer before the second one arrives."},
+  {"text": "So, why does the cream stick to one side? Scientists built a machine, and no twist could fix it."}
+ ],
+ "sources": [
+  "https://meche.mit.edu/news-media/mit-engineers-introduce-oreometer",
+  "https://www.popsci.com/science/twisting-oreo-creme-filling/",
+  "Owens, Fan, Hart, McKinley. On Oreology, the fracture and flow of milk's favorite cookie. Physics of Fluids (Kitchen Flows special issue), April 2022"
+ ],
+ "facts": {
+  "device": "Oreometer: 3D-printable rheometer-style device twisting an Oreo with pennies and rubber bands (MIT MechE)",
+  "tested": "regular, Double Stuf, Mega Stuf, plus dark chocolate and golden wafers",
+  "finding": "cream almost always stuck to one wafer regardless of filling or flavor",
+  "force": "about the torque of turning a doorknob, roughly one-tenth of a bottle cap",
+  "cause": "suspected: cream dispensed onto first wafer before second is added (researchers' hypothesis)"
+ }
+}
