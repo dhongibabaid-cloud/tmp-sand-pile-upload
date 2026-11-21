@@ -1,0 +1,30 @@
+{
+ "title": "The City That Couldn't Stop Dancing #shorts",
+ "voice": "am_fenrir",
+ "speed": 1.08,
+ "lead": 0.3,
+ "outro": 0.6,
+ "gap": 0.28,
+ "music": "bounce",
+ "lines": [
+  {"text": "Can a whole city dance until it drops? In fifteen eighteen, Strasbourg did."},
+  {"text": "In July, a woman named Frau Troffea began dancing in the street, and she danced for days."},
+  {"text": "Within weeks, as many as four hundred people had joined her."},
+  {"text": "Doctors blamed hot blood, so officials hired a band and built a stage to dance it out."},
+  {"text": "It backfired. Many collapsed from exhaustion, and some reportedly died."},
+  {"text": "Historians still argue why, from moldy rye to pure mass stress."},
+  {"text": "So, can a city dance until it drops? In Strasbourg it did, and nobody could stop the music."}
+ ],
+ "sources": [
+  "https://www.history.com/news/what-was-the-dancing-plague-of-1518",
+  "https://www.nationalgeographic.com/history/article/dancing-plague-of-1518-strasbourg-choreomania",
+  "https://publicdomainreview.org/essay/the-dancing-plague-of-1518/"
+ ],
+ "facts": {
+  "start": "July 1518, Frau Troffea danced in the street for nearly a week (History.com)",
+  "spread": "about three dozen joined, reportedly up to ~400 by August (History.com)",
+  "response": "physicians blamed 'hot blood' and advised dancing it out; officials built a stage, hired musicians and professional dancers (History.com)",
+  "toll": "many collapsed from exhaustion; some reportedly died of strokes/heart attacks (death toll is disputed)",
+  "causes": "ergot-mold poisoning vs mass psychogenic illness / St. Vitus belief (John Waller)"
+}
+}
