@@ -1,0 +1,31 @@
+{
+ "title": "The Day a Wave of Molasses Hit Boston #shorts",
+ "voice": "am_fenrir",
+ "speed": 1.08,
+ "lead": 0.3,
+ "outro": 0.6,
+ "gap": 0.28,
+ "music": "bounce",
+ "lines": [
+  {"text": "Can molasses kill twenty-one people? In Boston, it did."},
+  {"text": "On January fifteenth, nineteen nineteen, a tank holding over two million gallons of molasses burst."},
+  {"text": "A wave of syrup raced down the street at about thirty-five miles an hour."},
+  {"text": "Twenty-one people died, and about a hundred and fifty were hurt."},
+  {"text": "The company blamed anarchists. But a court ruled the tank was simply unsound."},
+  {"text": "Firefighters hosed it with salt water, and the North End smelled sweet for years."},
+  {"text": "So, can molasses kill? In Boston, it did, and the city never tasted the same."}
+ ],
+ "sources": [
+  "https://britannica.com/topic/Great-Molasses-Flood",
+  "https://www.boston.gov/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+  "https://www.npr.org/2019/01/15/685154620/a-deadly-tsunami-of-molasses-in-bostons-north-end"
+ ],
+ "facts": {
+  "date": "January 15, 1919, about 1 p.m., Commercial Street, North End, Boston (Britannica, Boston.gov)",
+  "tank": "more than 2 million gallons released (Britannica says up to 2.5M capacity; Boston.gov: wave volume 2.3M)",
+  "speed": "about 35 mph (Britannica, Boston.gov)",
+  "toll": "21 killed, about 150 injured",
+  "legal": "USIA blamed anarchists; 1925 court-appointed auditor found the tank unsound / owners negligent (Britannica, Boston.gov)",
+  "cleanup": "salt water sprayed by fireboat Engine 31 broke up molasses (Boston.gov); city smelled of molasses for years (Britannica)"
+ }
+}
