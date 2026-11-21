@@ -1,0 +1,28 @@
+{
+ "title": "The Man Who Sold the Eiffel Tower #shorts",
+ "voice": "am_fenrir",
+ "speed": 1.08,
+ "lead": 0.3,
+ "outro": 0.6,
+ "gap": 0.28,
+ "music": "bounce",
+ "lines": [
+  {"text": "Can you sell the Eiffel Tower? In nineteen twenty-five, one man did."},
+  {"text": "Victor Lustig posed as a government official and invited five scrap dealers to a fancy hotel."},
+  {"text": "He said Paris could not afford the tower, so it would be sold for scrap."},
+  {"text": "One dealer, Andre Poisson, paid up, and even bribed him to win the deal."},
+  {"text": "Lustig fled to Austria. Poisson was too embarrassed to go to the police."},
+  {"text": "So Lustig tried to sell the tower again."},
+  {"text": "So, can you sell the Eiffel Tower? In Paris, one man did, and the tower is still standing."}
+ ],
+ "sources": [
+  "https://www.toureiffel.paris/en/news/history-and-culture/who-sold-eiffel-tower",
+  "https://www.mentalfloss.com/crime/smooth-operator-how-victor-lustig-sold-eiffel-tower"
+ ],
+ "facts": {
+  "year": "1925, after Gustave Eiffel's death (toureiffel.paris, Mental Floss)",
+  "method": "posed as a Parisian civil servant, wrote bogus official letters to the five most prominent scrap dealers, met them in a hotel suite",
+  "victim": "scrap dealer Andre Poisson paid and also paid a bribe; roughly 7,300 tons of iron",
+  "aftermath": "Poisson too embarrassed to press charges; Lustig fled to Austria and later tried to sell the tower again (that victim went to police)"
+ }
+}
