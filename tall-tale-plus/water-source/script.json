@@ -1,0 +1,29 @@
+{
+ "title": "The City That Ran Out of Water #shorts",
+ "voice": "am_fenrir",
+ "speed": 1.08,
+ "lead": 0.3,
+ "outro": 0.6,
+ "gap": 0.28,
+ "music": "bounce",
+ "lines": [
+  {"text": "What if an entire city ran out of water? In twenty eighteen, Cape Town was ninety days away from finding out."},
+  {"text": "Four million people. Taps about to go dry. They even named the day: Day Zero."},
+  {"text": "The plan? Two hundred guarded water points, and just twenty-five litres per person. About two and a half buckets, for everything."},
+  {"text": "Before that, everyone got fifty litres. Two-minute showers. Pools banned. Fountains off."},
+  {"text": "The date kept moving. April. Then May."},
+  {"text": "Then the whole city cut its water use, and Day Zero never came."},
+  {"text": "A year later, the dams were over eighty percent full. So what happens when an entire city runs out of water? Four million people learn to shower in two minutes."}
+ ],
+ "sources": [
+  "https://www.engineeringnews.co.za/article/cape-town-cuts-water-allowance-to-daily-50-litres-as-day-zero-nears-2018-01-18 (50 L limit down from 87 L, Day Zero predicted April 21, ~200 points of distribution, 25 L per person, ~4 million people)",
+  "https://phys.org/news/2018-02-cape-town-drought-day.amp (date moved to May 11, ~200 collection points guarded, 25 L allocation, 50 L target from 87 L)",
+  "https://weforum.org/agenda/2019/08/cape-town-was-90-days-away-from-running-out-of-water-heres-how-it-averted-the-crisis (90 days from shutoff at peak, 50 L cap, two-minute showers, pools/fountains banned, Day Zero never came, dams over 80% a year later)"
+ ],
+ "facts": {
+  "limit": "50 L per person per day (down from 87 L) from 1 Feb 2018",
+  "dayzero_plan": "about 200 collection points, 25 L per person per day",
+  "dates": "predicted April 21, later May 11, never happened",
+  "after": "dams over 80% full a year later"
+ }
+}
