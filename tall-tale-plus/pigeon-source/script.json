@@ -1,0 +1,17 @@
+{
+ "title": "The Army Trained Pigeons to Steer Missiles #shorts",
+ "voice": "am_fenrir", "speed": 1.08, "lead": 0.3, "outro": 0.6, "gap": 0.28, "music": "bounce",
+ "lines": [
+  {"text": "During World War Two, a famous psychologist tried to put pigeons inside a missile, so they could steer it."},
+  {"text": "His name was B. F. Skinner. He trained pigeons to peck at a picture of a target, and every peck earned them grain."},
+  {"text": "Inside the nose cone, three pigeons watched a screen. When they pecked the target, the missile turned toward it."},
+  {"text": "The government gave him twenty five thousand dollars. The birds passed the tests, but officials thought the idea was too crazy, and shut it down."},
+  {"text": "Skinner kept the pigeons, and years later they still pecked perfectly."},
+  {"text": "The Navy revived it as Project Orcon, until electronics replaced the birds. So, would you trust a pigeon with a missile?"}
+ ],
+ "sources": [
+  "https://www.smithsonianmag.com/smithsonian-institution/bf-skinners-pigeon-guided-rocket-53443995/ (started ~1943; NDRC gave Skinner $25,000; three pigeons in nose cone peck at projected image on three screens; officials stayed skeptical and ended project; pigeons still pecking strongly 1, 2, 4, 6 years later)",
+  "https://www.army.mil/article/111511/its_a_bird_its_a_plane (pigeons trained with grain; no washouts in class of 64; never used in combat; renamed Project Orcon for the Navy after the war; Orcon cancelled 1953 when electronic guidance proved reliable)"
+ ],
+ "facts": {"hook": "Skinner, WWII (OSRD contract June 1943)", "note": "never used in combat"}
+}
