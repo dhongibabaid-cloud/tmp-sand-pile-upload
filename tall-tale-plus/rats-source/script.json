@@ -1,0 +1,31 @@
+{
+ "title": "The City That Paid People to Breed Rats #shorts",
+ "voice": "am_fenrir",
+ "speed": 1.08,
+ "lead": 0.3,
+ "outro": 0.6,
+ "gap": 0.28,
+ "music": "bounce",
+ "lines": [
+  {"text": "What happens when you pay people to kill rats? In nineteen oh two, Hanoi found out."},
+  {"text": "Rats were spreading plague, so the French offered one cent per rat. Just bring us the tail."},
+  {"text": "Hunters showed up with over twenty thousand tails in a single day."},
+  {"text": "Then inspectors spotted rats running around with no tails. People were cutting them off, and letting the rats go."},
+  {"text": "Others opened rat farms on the edge of town."},
+  {"text": "The French cancelled the bounty. The rats stayed."},
+  {"text": "So what happens when you pay people to kill rats? They breed them. And in nineteen oh six, the plague hit again."}
+ ],
+ "sources": [
+  "https://www.atlasobscura.com/articles/hanoi-rat-massacre-1902 (1902; one cent per rat, tail as proof; peak day over 20,000 tails; tailless rats released; rat farms on outskirts; bounty scrapped; 1906 plague outbreak; based on historian Michael Vann's research)",
+  "https://en.wikipedia.org/wiki/Great_Hanoi_Rat_Massacre (cross-check)",
+  "https://madeinchinajournal.com/?p=21957 (interview with historian Michael G. Vann)"
+ ],
+ "facts": {
+  "year": "1902, French colonial Hanoi",
+  "bounty": "one cent per rat, tail as proof",
+  "peak": "over 20,000 tails in one day (sources differ on the exact date, so no date is stated)",
+  "gaming": "tails cut off live rats then released; rat farms on the outskirts",
+  "outcome": "bounty scrapped; plague outbreak in 1906",
+  "caveat": "story rests largely on historian Michael Vann's research of colonial archives"
+ }
+}
