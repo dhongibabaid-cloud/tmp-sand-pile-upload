@@ -1,0 +1,29 @@
+{
+ "title": "The Fan Everyone Hated for 13 Years #shorts",
+ "voice": "am_fenrir",
+ "speed": 1.08,
+ "lead": 0.3,
+ "outro": 0.6,
+ "gap": 0.28,
+ "music": "bounce",
+ "lines": [
+  {"text": "The ball flew towards him, and he instinctively stuck out his hands right as the left fielder jumped for it, but his catch blocked the player's glove."},
+  {"text": "The left fielder screamed at him. The Cubs were five outs from the World Series, and this was Steve Bartman."},
+  {"text": "The umpire ruled no interference, but it was too late. The Cubs fell apart, and Florida scored eight runs that inning."},
+  {"text": "Fans threw trash at him. Security had to sneak him out of the stadium."},
+  {"text": "He apologized publicly, but he became one of baseball's most hated fans."},
+  {"text": "Thirteen years later, the Cubs finally won the World Series, and gave him a championship ring."},
+  {"text": "All for reaching at a foul ball, like fans do every game. So when a ball flies at you, do you reach?"}
+ ],
+ "sources": [
+  "https://sabr.org/gamesproj/game/october-14-2003-the-bartman-game (Oct 14 2003, NLCS Game 6, Wrigley; Cubs 3-0, eighth inning, one out; left fielder Moises Alou; umpire Mike Everitt ruled no interference; Marlins scored 8 runs in the inning, won 8-3; Game 7 lost 9-6; security disguised and escorted him out; debris thrown; next-day apology 'so truly sorry')",
+  "https://www.npr.org/sections/thetwo-way/2017/07/31/540640239/fan-blamed-for-chicago-cubs-loss-gets-his-own-world-series-ring (Cubs won 2016 WS, 13 years after 2003; ring given July 2017)",
+  "https://www.mlb.com/news/steve-bartman-receives-ws-ring-from-cubs-c245543604 (cross-check)"
+ ],
+ "facts": {
+  "hook": "line 1 kept verbatim from the user's text",
+  "five_outs": "Cubs led 3-0 with one out in the 8th: two more outs in the 8th plus three in the 9th = five outs",
+  "ring": "Cubs won the 2016 World Series (13 years after 2003); ring presented in 2017",
+  "removed": "death-threat claim not stated in the cited sources, so it is left out"
+ }
+}
