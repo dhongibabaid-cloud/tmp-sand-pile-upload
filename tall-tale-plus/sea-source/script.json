@@ -1,0 +1,15 @@
+{
+ "title": "He Survived 438 Days Lost at Sea #shorts",
+ "voice": "am_fenrir", "speed": 1.08, "lead": 0.3, "outro": 0.6, "gap": 0.28, "music": "bounce",
+ "lines": [
+  {"text": "In 2012, a fisherman was blown out to sea, and he drifted across the Pacific for more than a year."},
+  {"text": "He had no way home, so he caught fish and birds with his bare hands, and drank rainwater and turtle blood."},
+  {"text": "After 438 days, his boat washed up in the Marshall Islands, thousands of miles away."},
+  {"text": "Many doubted him, but scientists say ocean currents could carry a boat there. So, could you survive a year at sea?"}
+ ],
+ "sources": [
+  "https://allthatsinteresting.com/jose-alvarenga (left Costa Azul Mexico Nov 17 2012 in a skiff, storm; about 438 days adrift, about 6,000 miles, to the Marshall Islands; rainwater, caught fish, turtles, seabirds by hand, turtle blood when no rain; University of Hawaii study found currents could carry the skiff there)",
+  "https://www.nationalgeographic.com/science/article/140205-science-castaway-adrift-shipwreck-survival (13 months, about 6,700 miles / 10,800 km per his account; some skepticism from Marshall Islands police; CNN weather producer found timing plausible)"
+ ],
+ "facts": {"hedge": "438 days is his account; script says 'after 438 days' and 'many doubted him'; omits the disputed lawsuit and companion's death"}
+}
