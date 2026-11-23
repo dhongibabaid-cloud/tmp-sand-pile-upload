@@ -1,0 +1,16 @@
+{
+ "title": "Two States Went to War Over Toledo #shorts",
+ "voice": "am_fenrir", "speed": 1.08, "lead": 0.3, "outro": 0.6, "gap": 0.28, "music": "bounce",
+ "lines": [
+  {"text": "In 1835, Ohio and Michigan nearly went to war over the city of Toledo."},
+  {"text": "Both states sent militias, but the only shots were warning shots, and the only casualty was a sheriff stabbed in a tavern brawl."},
+  {"text": "President Jackson stepped in, and Congress offered Michigan a deal: give up Toledo, and take the Upper Peninsula."},
+  {"text": "Michiganders called it a worthless wasteland, until it turned out to be full of copper and iron."},
+  {"text": "So, who really won the Toledo War?"}
+ ],
+ "sources": [
+  "https://www.history.com/news/the-toledo-war-when-michigan-and-ohio-nearly-came-to-blows (dispute over 468 sq mi Toledo Strip, 1835-36; Michigan militia fired warning shots and arrested nine Ohio surveyors at Phillips Corners, no one hurt; Michigan sheriff Joseph Wood stabbed in a tavern brawl July 1835, minor wound, only casualty; Jackson removed Mason, militias stood down; Michigan accepted Congress's deal Dec 14 1836: statehood plus about 9,000 sq mi of the Upper Peninsula; Detroit Free Press called the U.P. a land of perpetual snows; later found to hold copper and iron ore)",
+  "https://www.michigan.gov/dmva/about/history/military-events/highlights/the-toledo-war (shots over heads of Ohio officials, surveyors captured, tavern stabbing of a Michigan sheriff, Jackson intervened, Michigan became the 26th state Jan 26 1837 with western three-quarters of the Upper Peninsula)"
+ ],
+ "facts": {"hedge": "script says 'nearly went to war' and 'only shots were warning shots' per both sources"}
+}
