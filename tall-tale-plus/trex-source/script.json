@@ -1,0 +1,16 @@
+{
+ "title": "What If a T-Rex Moved Into Your Kitchen? #shorts",
+ "voice": "am_fenrir", "speed": 1.1, "lead": 0.3, "outro": 0.6, "gap": 0.25, "music": "bounce",
+ "lines": [
+  {"text": "A T-rex just walked into your kitchen, and he's already eating your fridge!"},
+  {"text": "His bite hits about eight thousand pounds of force, so your fridge is just a crunchy snack."},
+  {"text": "He weighs around eight tons, which is why your floor just went to the basement."},
+  {"text": "His tiny arms can still curl over two hundred pounds each, so he wins every arm wrestle."},
+  {"text": "Moral: a T-rex roommate never loses an argument about the dishes."}
+ ],
+ "sources": [
+  "https://www.popsci.com/tyrannosaurus-rex-bite/ (Gignac & Erickson 2017 estimate ~8,000 lb bite force; Bates 2012 estimated up to 12,800 lb)",
+  "https://animals.howstuffworks.com/dinosaurs/why-did-t-rex-had-such-puny-arms.htm (adult T. rex ~8 tons / 8,000 kg; each bicep could curl more than 220 lb; arms not much longer than a human's)"
+ ],
+ "facts": {"hedge": "bite 'about 8,000 lb' is an estimate; rest of scenario (kitchen, fridge, floor) is comedic what-if"}
+}
