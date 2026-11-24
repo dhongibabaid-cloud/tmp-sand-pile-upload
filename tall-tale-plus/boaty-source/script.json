@@ -1,0 +1,16 @@
+{
+ "title": "The Internet Named a Ship Boaty McBoatface #shorts",
+ "voice": "am_fenrir", "speed": 1.1, "lead": 0.3, "outro": 0.6, "gap": 0.25, "music": "bounce",
+ "lines": [
+  {"text": "Britain asked the internet to name a 300-million-dollar research ship, and the internet screamed: Boaty McBoatface!"},
+  {"text": "It won with over 124,000 votes, more than ten times what Sir David Attenborough's name got."},
+  {"text": "The government panicked, and named the ship after Attenborough instead."},
+  {"text": "But Boaty got revenge: the name went to a tiny submarine, which went exploring under Antarctica."},
+  {"text": "Moral: never let the internet name anything."}
+ ],
+ "sources": [
+  "https://www.npr.org/sections/thetwo-way/2016/05/06/477010650/boaty-by-another-name-sir-david-attenborough-is-chosen-for-british-research-ship (NERC online poll; Boaty McBoatface >124,000 votes, over ten times the ~11,000 for Attenborough's name; ship ~$300M; science minister Jo Johnson chose RRS Sir David Attenborough; Boaty name given to a remotely operated sub-sea vehicle carried by the ship)",
+  "https://www.smithsonianmag.com/smart-news/boaty-mcboatface-completes-its-first-mission-180963863/ and https://noc.ac.uk/news/autosub-long-range-boaty-mcboatface-returns-home-after-successful-antarctic-mission (Boaty sub completed Antarctic missions in 2017)"
+ ],
+ "facts": {"hedge": "'tiny submarine' = autonomous sub; cost rounded to 300 million dollars per NPR"}
+}
