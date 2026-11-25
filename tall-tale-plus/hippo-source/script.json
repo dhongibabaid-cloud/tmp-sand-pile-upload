@@ -1,0 +1,16 @@
+{
+ "title": "What If a Hippo Moved Into Your Bathtub? #shorts",
+ "voice": "am_fenrir", "speed": 1.1, "lead": 0.3, "outro": 0.6, "gap": 0.25, "music": "bounce",
+ "lines": [
+  {"text": "A hippo just moved into your bathtub, and your bathroom is already a swamp!"},
+  {"text": "He weighs up to four and a half tons, so your bathtub lasted about one second."},
+  {"text": "His red skin goo works like sunscreen, so your white towels are now salmon colored."},
+  {"text": "And to show who's boss, he flicks his poop around with his tail."},
+  {"text": "Moral: never share a bathroom with a hippo."}
+ ],
+ "sources": [
+  "https://www.nationalgeographic.com/animals/mammals/facts/hippopotamus (hippos weigh up to 4.5 tons; oily red secretion shields skin from sun and germs; males flick dung with their tails to show dominance; up to 22 mph on land; cannot swim or float)",
+  "https://www.sciencenews.org/article/red-sweat-hippo-skin-oozes-antibiotic-sunscreen (red-orange secretion absorbs UV, works as sunscreen, inhibits bacteria; not blood)"
+ ],
+ "facts": {"hedge": "bathroom scenario is a comedic what-if; towels 'salmon colored' is the joke"}
+}

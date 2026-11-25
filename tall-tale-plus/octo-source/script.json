@@ -1,0 +1,16 @@
+{
+ "title": "What If an Octopus Moved Into Your Kitchen? #shorts",
+ "voice": "am_fenrir", "speed": 1.1, "lead": 0.3, "outro": 0.6, "gap": 0.25, "music": "bounce",
+ "lines": [
+  {"text": "An octopus just moved into your kitchen, and he's already raiding your fridge with arm number seven!"},
+  {"text": "He has three hearts, and his blood is blue, because it runs on copper."},
+  {"text": "Two thirds of his neurons live in his arms, so every arm thinks for itself."},
+  {"text": "Try to catch him? His only hard part is his beak, so he slides right down the drain."},
+  {"text": "Moral: never play hide and seek with an octopus."}
+ ],
+ "sources": [
+  "https://www.smithsonianmag.com/science-nature/ten-wild-facts-about-octopuses-they-have-three-hearts-big-brains-and-blue-blood-7625828/ (three hearts; copper-based hemocyanin makes blood blue; about two-thirds of neurons are in the arms; arms can act semi-independently)",
+  "https://livescience.com/55478-octopus-facts.html (eight arms moving independently; beak is the only hard part of the body; 2016 NZ aquarium octopus escaped its tank via a drainpipe)"
+ ],
+ "facts": {"hedge": "kitchen scenario is a comedic what-if; 'slides down the drain' is the playful version of the documented drainpipe escape"}
+}
