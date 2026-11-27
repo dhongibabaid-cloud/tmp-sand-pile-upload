@@ -1,0 +1,17 @@
+{
+ "title": "What If a Giraffe Moved Into Your Living Room? #shorts",
+ "voice": "am_fenrir", "speed": 1.1, "lead": 0.3, "outro": 0.6, "gap": 0.25, "music": "bounce",
+ "lines": [
+  {"text": "A giraffe just moved into your living room, and his head is already through the ceiling!"},
+  {"text": "He's up to eighteen feet tall, and your ceiling was not built for that."},
+  {"text": "His tongue is eighteen inches long and purple, so your cereal never stood a chance."},
+  {"text": "He eats seventy five pounds a day, so your houseplants are now a memory."},
+  {"text": "And he sleeps about thirty minutes a day, so he is definitely taking your couch."},
+  {"text": "Moral: never invite a giraffe over."}
+ ],
+ "sources": [
+  "https://animals.sandiegozoo.org/node/66 (males up to 18 ft / 5.5 m; tongue about 18 in / 46 cm and dark, thought to prevent sunburn; seven neck vertebrae; sleeps only about 5 to 30 minutes a day; eats up to 75 lb / 34 kg a day)",
+  "https://www.discoverwildlife.com/animal-facts/mammals/giraffe-facts (4-5 m typical height; tongue 45-50 cm, bluish-purple; heart about 11 kg)"
+ ],
+ "facts": {"hedge": "living room scenario is a comedic what-if"}
+}
