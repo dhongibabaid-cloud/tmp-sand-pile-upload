@@ -1,0 +1,20 @@
+{
+ "title": "I Told Mom I Was a Millionaire #shorts",
+ "voice": "am_fenrir", "speed": 1.12, "lead": 0.25, "outro": 0.5, "gap": 0.18, "music": "bounce",
+ "lines": [
+  {"text": "As a joke, I told my mom I became a millionaire."},
+  {"text": "Oh my god, really?!", "voice": "bf_emma", "speed": 1.05},
+  {"text": "She believed me instantly. By evening, she had told every neighbor on our street."},
+  {"text": "The next morning, twenty relatives showed up asking for loans."},
+  {"text": "I panicked. Mom, it was a prank!"},
+  {"text": "She looked at me, smiled, and walked into her room."},
+  {"text": "Wait here, beta.", "voice": "bf_emma", "speed": 0.95},
+  {"text": "She came back with an old tin box."},
+  {"text": "I saved your pocket money for ten years. It is for your dreams.", "voice": "bf_emma", "speed": 0.92},
+  {"text": "I opened it. Inside was four thousand rupees and a note."},
+  {"text": "You were always my millionaire.", "voice": "bf_emma", "speed": 0.9},
+  {"text": "I cried. Mom cried. Then the relatives asked for a loan."}
+ ],
+ "sources": ["Original fictional story written for this channel"],
+ "facts": {"hedge": "fictional story, not a real event"}
+}
