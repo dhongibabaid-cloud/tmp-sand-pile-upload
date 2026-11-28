@@ -1,0 +1,21 @@
+{
+ "title": "Grandpa's Greatest Treasure #shorts",
+ "voice": "am_fenrir", "speed": 1.12, "lead": 0.25, "outro": 0.5, "gap": 0.18, "music": "bounce",
+ "lines": [
+  {"text": "Grandpa always said, when I die, you'll inherit my greatest treasure."},
+  {"text": "Everyone laughed. He was a retired mailman who collected bottle caps."},
+  {"text": "When he passed away, my cousins fought over the house, the car, even the mailbox."},
+  {"text": "All I got was one rusty key and a note: Open the attic. Alone."},
+  {"text": "That night, I climbed the creaky stairs. Something moved in the dark."},
+  {"text": "I screamed. Then my little sister screamed even louder."},
+  {"text": "Why are we in the attic?!", "voice": "bf_emma", "speed": 1.0},
+  {"text": "In the corner sat an old trunk, full of letters. Every single one had my name."},
+  {"text": "One for every birthday, until I turn forty."},
+  {"text": "I cried. My sister cried. Then I opened the last one."},
+  {"text": "Kiddo, the real treasure is this: I will never miss a birthday. P.S. The bottle caps are worthless. Sorry.", "voice": "bm_george", "speed": 0.92},
+  {"text": "I laughed and cried at the same time."},
+  {"text": "Best mailman ever.", "voice": "bf_emma", "speed": 0.95}
+ ],
+ "sources": ["Original fictional story written for this channel"],
+ "facts": {"hedge": "fictional story, not a real event"}
+}
