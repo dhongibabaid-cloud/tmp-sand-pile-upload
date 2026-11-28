@@ -1,0 +1,20 @@
+{
+ "title": "I Took Revenge On My Neighbor Gary #shorts",
+ "voice": "am_fenrir", "speed": 1.12, "lead": 0.25, "outro": 0.5, "gap": 0.18, "music": "bounce",
+ "lines": [
+  {"text": "My neighbor parked in my spot every single day, so I left him a polite note."},
+  {"text": "Parking is first come, first served. Love, Gary.", "voice": "am_puck", "speed": 1.1},
+  {"text": "So I took revenge. Day one, I parked sideways and blocked him in."},
+  {"text": "He honked at six AM. I waved like an angel."},
+  {"text": "Day two, I covered his entire car in sticky notes."},
+  {"text": "Day three, I put a traffic cone on his roof. That's when someone knocked on my door."},
+  {"text": "Are you the one blocking my son? He works night shifts to pay for my treatment. He parks close because he's exhausted.", "voice": "bf_emma", "speed": 0.95},
+  {"text": "I froze. I felt like the worst person on Earth."},
+  {"text": "The next morning, I left a new note: The spot is yours. Coffee is on me."},
+  {"text": "An hour later, Gary knocked on my door, holding a pizza."},
+  {"text": "Dude, you're my favorite neighbor.", "voice": "am_puck", "speed": 1.1},
+  {"text": "We're best friends now. He still takes my parking spot. But he brings pizza."}
+ ],
+ "sources": ["Original fictional story written for this channel"],
+ "facts": {"hedge": "fictional story, not a real event"}
+}
